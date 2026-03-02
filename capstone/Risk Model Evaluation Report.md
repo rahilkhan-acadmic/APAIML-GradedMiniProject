@@ -37,6 +37,6 @@ The evaluation focused on comparing a **baseline Logistic Regression** model aga
 
 ## Conclusion
 * While the **Random Forest (Tuned)** model provides the highest overall accuracy, the **Logistic Regression** baseline remains more effective at identifying critical **High-Risk** cases. Future iterations should  prioritize class-balancing techniques to improve clinical utility.
-*   **By Gender/City:** Performance is consistent across demographics, indicating no significant algorithmic bias.
-*   **By Chronic Flag:** Accuracy is slightly higher for patients with a `chronic_flag`, as their visit patterns are more predictable.
+* Performance is consistent across demographics, indicating no significant algorithmic bias.
+* Accuracy is slightly higher for patients with a `chronic_flag`, as their visit patterns are more predictable.
 
