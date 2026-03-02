@@ -1,4 +1,6 @@
-# Model Explainability Summary: Visit Risk Classification
+# Model Explainability Summary: 
+
+## Visit Risk Classification
 
 This summary consolidates the explainability and performance profiles for the two models developed to predict hospital visit operational and clinical risk (**Low, Medium, High**) (p. 2).
 
