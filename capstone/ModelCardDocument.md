@@ -63,5 +63,5 @@ This Model Card provides a structured overview of the **Visit Risk Classificatio
 
 ---
 
-**Disclaimer:** This model is an advisory tool for operational efficiency. It does not provide medical advice or legal financial determinations. 
+**Disclaimer:** This model is generated toward completion requirement of capstone project. It does not provide medical advice or legal financial determinations. 
 
