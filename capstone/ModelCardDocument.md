@@ -5,6 +5,7 @@ This Model Card provides a structured overview of the **Visit Risk Classificatio
 ---
 
 ## 1. Model Details
+- **Developed by:** Rahil Khan
 - **Organization:** Hospital Data Science & Finance Department
 - **Model Date:** October 2025
 - **Model Type:** Random Forest Classifier (Ensemble Learning)
