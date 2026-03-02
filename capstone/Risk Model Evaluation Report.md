@@ -32,11 +32,12 @@ The evaluation focused on comparing a **baseline Logistic Regression** model aga
 *   **Recall for High Risk Class:** **~0.10**. 
     *   *Analysis:* The model captures only 10% of actual high-risk visits. This poses a safety risk for operations if used for automated staffing, as 90% of high-risk cases are missed.
 *   **Confusion Matrix Insight:** The model frequently misclassifies "High" and "Medium" risk visits as "Low" risk due to the overwhelming historical volume of low-risk data.
+
+5. **Fairness & Segmentation**
+*   **By Gender/City:** Performance is consistent across demographics, indicating no significant algorithmic bias.
+*   **By Chronic Flag:** Accuracy is slightly higher for patients with a `chronic_flag`, as their visit patterns are more predictable.
   
 ---
 
 ## Conclusion
 * While the **Random Forest (Tuned)** model provides the highest overall accuracy, the **Logistic Regression** baseline remains more effective at identifying critical **High-Risk** cases. Future iterations should  prioritize class-balancing techniques to improve clinical utility.
-* Performance is consistent across demographics, indicating no significant algorithmic bias.
-* Accuracy is slightly higher for patients with a `chronic_flag`, as their visit patterns are more predictable.
-
