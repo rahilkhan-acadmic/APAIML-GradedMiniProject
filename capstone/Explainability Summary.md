@@ -1,6 +1,6 @@
 # Model Explainability Summary: 
 
-##Visit Risk Classification
+## Visit Risk Classification
 This summary consolidates the explainability and performance profiles for the two models developed to predict hospital visit operational and clinical risk (**Low, Medium, High**) (p. 2).
 
 ---
@@ -47,9 +47,14 @@ The decision logic for both models is driven by four primary categories of engin
 *   **Model Selection:** The **Random Forest** is the preferred model for deployment, offering a **12-13% performance lift** over the baseline. 
 
 > **Recommendation:** Future iterations should incorporate clinical diagnosis codes (ICD-10) to potentially improve the detection of High-Risk cases (p. 22).
+>
+> 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+>
+> 
+
 
 ## Claim Outcome Classification
 
