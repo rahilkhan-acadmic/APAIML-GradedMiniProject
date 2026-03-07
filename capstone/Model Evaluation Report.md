@@ -1,13 +1,13 @@
-# Model Evaluation Report: Insurance Claim Outcome Classification
+# Claim Model Evaluation Report
 
+## Executive Summary
 This report provides a detailed performance evaluation of the classification models developed to predict insurance claim statuses (**Paid**, **Pending**, or **Rejected**) to support hospital financial forecasting.
-
-***
-
-### 1. Claim Model Evaluation Summary
-
 The evaluation compared a baseline **Logistic Regression** model against an **Advanced Random Forest** classifier. Both models were trained on 80% of historical data and evaluated on a 20% time-based holdout set.
 
+
+---
+
+## Performance Metrics Comparison
 
 | Metric | Logistic Regression (Baseline) | Random Forest (Advanced) |
 | :--- | :--- | :--- |
